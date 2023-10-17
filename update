@@ -17,7 +17,7 @@ do_clone()
 
 do_clone_all()
 {
-    do_clone "ffmpeg"     "https://github.com/FFmpeg/FFmpeg.git"
+    do_clone "ffmpeg"     "https://github.com/jernejsk/FFmpeg.git"
     #do_clone "fribidi"    "http://anongit.freedesktop.org/git/fribidi/fribidi.git"
     do_clone "libass"     "https://github.com/libass/libass.git"
     do_clone "libplacebo" "https://github.com/haasn/libplacebo.git"
@@ -85,7 +85,7 @@ checkout()
 }
 
 # fallback targets: release/master/@foo if no config file
-checkout_ffmpeg=master
+checkout_ffmpeg=v4l2-request-n6.0
 #checkout_fribidi=release
 checkout_libass=master
 checkout_libplacebo=master
